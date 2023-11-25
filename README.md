@@ -17,7 +17,7 @@
 <a href="https://www.linkedin.com/in/ansuman-swain-704122228" target="blank"><img alt="Static Badge" src="https://img.shields.io/badge/Linkedin-s?logo=linkedin&labelColor=%230072b1&color=white">
 </a>  
 <a href="https://x.com/baller_777?s=09" target="_blank">
-            <img src="https://img.shields.io/twitter/follow/baller_777?style=social&logo=twitter" alt="Twitter Follow">
+            <img src="https://img.shields.io/X/follow/baller_777?style=social&logo=X" alt="X Follow">
 
 </p> 
 
