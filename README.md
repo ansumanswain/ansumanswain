@@ -6,6 +6,10 @@
 -  <h1 >Greetings, I'm Ansuman Swain 🙋‍♂️</h1> <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=ansumanswain&&theme=highcontrast" alt="ansumanswain" />
 <h3 >A curious & handsome Geek, sharing as he grows.</h3> 
 <p align="left"> <img src= "https://komarev.com/ghpvc/?username=ansumanswain&label=Profile%20views&color=0e75b6&style=flat" alt="ansumanswain" /> </p> 
+<div align="center"> 
+<i>Random dev joke for you!</i></br></br>
+<img align="center" src="https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0" alt="README Jokes">
+</div>
 
 🌱 I’m currently learning **to evolve** 
 
