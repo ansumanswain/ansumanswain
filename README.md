@@ -13,7 +13,7 @@
 
 🌱 I’m currently learning **to EVOLVE** 
 
-📫 Contact me: **ansumanswain25@gmail.com**
+📫 Contact Me: **ansumanswain25@gmail.com**
 
 
 ## #️⃣Socials:
