@@ -11,6 +11,83 @@
 <img align="center" src="https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0" alt="README Jokes">
 </div>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylized Digital Clock</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            font-family: 'Helvetica Neue', sans-serif;
+            color: #fff;
+        }
+        .clock {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .clock .time {
+            font-size: 4em;
+            letter-spacing: 0.05em;
+            margin-bottom: 10px;
+        }
+        .clock .date {
+            font-size: 1.5em;
+            letter-spacing: 0.1em;
+        }
+        @keyframes blink {
+            0%, 50%, 100% {
+                opacity: 1;
+            }
+            25%, 75% {
+                opacity: 0;
+            }
+        }
+        .clock .colon {
+            animation: blink 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div class="time" id="time">
+            <span id="hours">00</span><span class="colon">:</span><span id="minutes">00</span><span class="colon">:</span><span id="seconds">00</span>
+        </div>
+        <div class="date" id="date">January 1, 1970</div>
+    </div>
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const year = now.getFullYear();
+            const month = now.toLocaleString('default', { month: 'long' });
+            const day = String(now.getDate()).padStart(2, '0');
+
+            document.getElementById('hours').textContent = hours;
+            document.getElementById('minutes').textContent = minutes;
+            document.getElementById('seconds').textContent = seconds;
+            document.getElementById('date').textContent = `${month} ${day}, ${year}`;
+        }
+
+        setInterval(updateTime, 1000);
+        updateTime();
+    </script>
+</body>
+</html>
+
 🌱 I’m currently learning **to EVOLVE** 
 
 📫 Contact Me: **ansumanswain25@gmail.com**
